@@ -9,6 +9,6 @@ RUN cd MegaDL-Bot
 WORKDIR /MegaDL-Bot
 
 
-RUN pip3 install -U -r requirements.txt
+
 
 CMD python3 main.py
