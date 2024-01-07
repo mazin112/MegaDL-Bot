@@ -4,7 +4,7 @@
 import os
 import asyncio
 from config import Config
-from pyrogram import Client
+
 
 if __name__ == "__main__" :
     if not os.path.isdir(Config.DOWNLOAD_LOCATION):
